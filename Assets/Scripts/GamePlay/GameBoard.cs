@@ -55,8 +55,6 @@ public class GameBoard : MonoBehaviour
             }
         }
 
-        //AllTiles = new BackGroundTiles[wigth, height];
-        //SetUp();
     }
 
     /// <summary>
@@ -69,20 +67,5 @@ public class GameBoard : MonoBehaviour
     {
         return new Vector2(transform.position.x - wigth / 2.0f + x, transform.position.y + height / 2.0f - y);
     }
-
-    /// <summary>
-    /// Crate The GridTiles.
-    /// </summary>
-    //private void SetUp()
-    //{
-    //    for (int i = 0; i < wigth; i++)
-    //    {
-    //        for (int j = 0; j < height; j++)
-    //        {
-    //            Vector2 TempPostion = new Vector2(i, j);
-    //            Instantiate(BG_Prefab, TempPostion, Quaternion.identity);
-    //        }
-    //    }
-    //}
 
 }
